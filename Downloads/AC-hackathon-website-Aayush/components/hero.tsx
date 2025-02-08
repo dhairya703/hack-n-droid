@@ -12,10 +12,10 @@ import {
   slideUp,
   staggerContainer,
 } from "@/lib/motion-variants";
-import { useToast } from "@/hooks/use-toast";
+// import { useToast } from "@/hooks/use-toast";
 
 export function Hero() {
-  const { toast } = useToast();
+  // const { toast } = useToast();
 
   const handleRegisterClick = () => {
     const target = document.getElementById("register");

@@ -2,38 +2,38 @@
 
 "use client";
 
-import { useState } from "react";
+// import { useState } from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
+// import Image from "next/image";
+// import { Button } from "@/components/ui/button";
 
-const images = [
-  {
-    src: "/ai1.png",
-    alt: "AI generated sphere in desert",
-    category: "Machine Learning",
-  },
-  {
-    src: "/ai2.png",
-    alt: "AI generated circular structure",
-    category: "Blockchain (Web 3)",
-  },
-  {
-    src: "/ai3.png",
-    alt: "AI generated crystal sphere in water",
-    category: "Data Science",
-  },
-];
+// const images = [
+//   {
+//     src: "/ai1.png",
+//     alt: "AI generated sphere in desert",
+//     category: "Machine Learning",
+//   },
+//   {
+//     src: "/ai2.png",
+//     alt: "AI generated circular structure",
+//     category: "Blockchain (Web 3)",
+//   },
+//   {
+//     src: "/ai3.png",
+//     alt: "AI generated crystal sphere in water",
+//     category: "Data Science",
+//   },
+// ];
 
-const categories = ["All", "Machine Learning", "Data Science", "Web3"];
+// const categories = ["All", "Machine Learning", "Data Science", "Web3"];
 
 export function AIImageGallery() {
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  // const [selectedCategory] = useState("All");
 
-  const filteredImages =
-    selectedCategory === "All"
-      ? images
-      : images.filter((img) => img.category === selectedCategory);
+  // const filteredImages =
+  //   selectedCategory === "All"
+  //     ? images
+  //     : images.filter((img) => img.category === selectedCategory);
 
   return (
     <section className="bg-purple-950 py-24">

@@ -4,8 +4,8 @@
 
 import { motion } from "framer-motion";
 import { staggerContainer, slideInLeft, slideUp } from "@/lib/motion-variants";
-import { Button, MovingBorder } from "./ui/moving-border";
-import { cn } from "@/lib/utils";
+import { Button } from "./ui/moving-border";
+// import { cn } from "@/lib/utils";
 
 export function Schedule() {
   const days = [
